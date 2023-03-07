@@ -4,6 +4,7 @@ def imprimir_A(arreglo):
   for i in range(tamanio):
     print(f'[{arreglo[i]}]', end="")
 #busqueda lineal
+#el algoritmo no funciona correctamente
 def busqueda_Lineal(arreglo,sueldo):
   resultado=False
   tamanio=len(arreglo)-1
